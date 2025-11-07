@@ -1,5 +1,4 @@
 import type { Preview } from '@storybook/svelte';
-import { INITIAL_VIEWPORTS } from 'storybook/viewport';
 
 const preview: Preview = {
 	parameters: {
@@ -12,26 +11,53 @@ const preview: Preview = {
 		},
 		viewport: {
 			options: {
-				...INITIAL_VIEWPORTS,
 				stake: {
-					name: 'stake iframe',
+					name: 'Desktop',
 					styles: {
 						width: '1200px',
 						height: '675px',
 					},
 				},
+				stakeLaptop: {
+					name: 'Laptop',
+					styles: {
+						width: '1024px',
+						height: '576px',
+					},
+				},
 				stakeMini: {
-					name: 'stake mini player',
+					name: 'Popout S',
 					styles: {
 						width: '400px',
 						height: '225px',
 					},
 				},
 				stakeMiniExpanded: {
-					name: 'stake mini player (expanded)',
+					name: 'Popout L',
 					styles: {
 						width: '800px',
 						height: '450px',
+					},
+				},
+				mobileLarge: {
+					name: 'Mobile L',
+					styles: {
+						width: '425px',
+						height: '812px',
+					},
+				},
+				mobileMedium: {
+					name: 'Mobile M',
+					styles: {
+						width: '375px',
+						height: '667px',
+					},
+				},
+				mobileSmall: {
+					name: 'Mobile S',
+					styles: {
+						width: '320px',
+						height: '568px',
 					},
 				},
 			},
