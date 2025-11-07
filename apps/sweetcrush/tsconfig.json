@@ -1,5 +1,6 @@
 {
-	"extends": "config-ts/base.json",
+	"extends": "../../packages/config-ts/base.json",
 	"include": ["."],
 	"exclude": ["dist", "build", "node_modules"]
 }
+

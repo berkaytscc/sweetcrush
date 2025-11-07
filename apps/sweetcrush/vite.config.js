@@ -1,4 +1,5 @@
 // @ts-ignore
-import config from 'config-vite';
+import config from '../../packages/config-vite/index.js';
 
 export default config();
+

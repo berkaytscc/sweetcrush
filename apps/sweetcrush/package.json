@@ -1,13 +1,13 @@
 {
-	"name": "cluster",
+	"name": "sweetcrush",
 	"version": "0.0.0",
 	"private": true,
 	"license": "MIT",
 	"scripts": {
 		"format": "prettier --write --ignore-path=../../.prettierignore .",
 		"lint": "eslint \"src\"",
-		"storybook": "PUBLIC_CHROMATIC=true storybook dev -p 6001 public",
-		"dev": "vite dev --host --port 3001",
+		"storybook": "PUBLIC_CHROMATIC=true storybook dev -p 6002 public",
+		"dev": "vite dev --host --port 3002",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
@@ -25,30 +25,9 @@
 		"@sveltejs/vite-plugin-svelte": "5.0.3"
 	},
 	"dependencies": {
-		"lodash": "4.17.16",
-		"@types/lodash": "4.17.16",
 		"svelte": "5.20.5",
 		"vite": "6.2.0",
-		"@sveltejs/kit": "2.17.3",
-		"@lingui/core": "5.2.0",
-		"envs": "workspace:*",
-		"rgs-requests": "workspace:*",
-		"pixi-svelte": "workspace:*",
-		"state-shared": "workspace:*",
-		"constants-shared": "workspace:*",
-		"components-storybook": "workspace:*",
-		"components-shared": "workspace:*",
-		"components-layout": "workspace:*",
-		"components-ui-html": "workspace:*",
-		"components-pixi": "workspace:*",
-		"components-ui-pixi": "workspace:*",
-		"utils-event-emitter": "workspace:*",
-		"utils-shared": "workspace:*",
-		"utils-xstate": "workspace:*",
-		"utils-slots": "workspace:*",
-		"utils-book": "workspace:*",
-		"utils-bet": "workspace:*",
-		"utils-layout": "workspace:*",
-		"utils-sound": "workspace:*"
+		"@sveltejs/kit": "2.17.3"
 	}
 }
+
