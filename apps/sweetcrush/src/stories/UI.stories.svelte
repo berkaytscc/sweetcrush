@@ -123,7 +123,7 @@
 		position: relative;
 		width: 100vw;
 		height: 100vh;
-		background: #26689e;
+		background: #ffffff url('/Background/DesktopBackground.png') center/cover no-repeat;
 		overflow: hidden;
 	}
 
@@ -138,8 +138,8 @@
 		right: 0;
 		bottom: 0;
 		top: 82%;
-		background: linear-gradient(180deg, rgba(10,10,10,0.0) 0%, rgba(10,10,10,0.55) 45%, rgba(10,10,10,0.85) 100%);
-		backdrop-filter: blur(2px);
+		background: linear-gradient(180deg, rgba(10, 10, 10, 0.827) 0%, rgba(10, 10, 10, 0.786) 45%, rgba(10,10,10,0.85) 100%);
+		backdrop-filter: blur(1px);
 		border-top: 1px solid rgba(255,255,255,0.12);
 		box-shadow: 0 -12px 40px rgba(0,0,0,0.6);
 		color: #fff;
