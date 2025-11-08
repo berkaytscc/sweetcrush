@@ -137,7 +137,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		top: 82%;
+		top: 87%;
 		background: linear-gradient(180deg, rgba(10, 10, 10, 0.827) 0%, rgba(10, 10, 10, 0.786) 45%, rgba(10,10,10,0.85) 100%);
 		backdrop-filter: blur(1px);
 		border-top: 1px solid rgba(255,255,255,0.12);
@@ -152,6 +152,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		align-items: center;
 		gap: 16px;
+		transform: translateY(-25px);
 	}
 
 	.left {
@@ -311,7 +312,7 @@
 		font-weight: 700;
 		box-shadow: 0 16px 36px rgba(0,0,0,0.5), inset 0 0px 0 rgba(255,255,255,0.06);
 		background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.12), rgba(255,255,255,0.04));
-		transform: translateY(-10px);
+		transform: translateY(-20px);
 	}
 
 	.round.spin img {
@@ -335,7 +336,7 @@
 	}
 
 	.round.spin:active {
-		transform: translateY(-10px);
+		transform: translateY(-20px);
 		box-shadow: 0 16px 36px rgba(0,0,0,0.5), inset 0 0px 0 rgba(255,255,255,0.06);
 	}
 
